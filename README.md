@@ -2,7 +2,7 @@
 A waveform that animates to an AVAudioPlayer.
 
 # Installation
-Drag `Waveform_view.swift` into your project.
+Drag `WaveformView.swift` into your project.
 
 # Usage
 Create a view on a storyboard or in your code manually, and set its type as `WaveformView`. 
