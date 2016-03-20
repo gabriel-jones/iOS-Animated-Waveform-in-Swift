@@ -13,7 +13,7 @@ extension UIColor {
     /**
      Get the RGB of a UIColor as a custom class
      
-     - returns: `Color` class contains variables `r`, `g`, `b`, `a` according to UIColor it originated from
+     - returns: Dictionary with keys `r`, `g`, `b`, `a` according to UIColor it originated from
      */
     func rgb() -> [String:CGFloat] {
         var fRed : CGFloat = 0
