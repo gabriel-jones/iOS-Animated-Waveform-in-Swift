@@ -19,5 +19,5 @@ With `myWaveformView` being the view you created as the type of `WaveformView` a
 Attribute | Description | Usage
 ----------|-------------|--------
 `color` | Chanes the color of the waveform | `waveform.color = UIColor(r: 0.6, g: 0.3, b: 0.1, a: 0.9)`<br>`waveform.color = myImage.averageColor()`
-`randomColor` | Overrides `color` attribute to be a random color each frame <br> *Warning: Rapid color changes may induce seizures*| `waveform.randomColor = true`
+`randomColor` | Overrides `color` attribute to be a random color each frame | `waveform.randomColor = true`
 `lineWidth` | Changes the width of the lines in the waveform | `waveform.lineWidth = 3.0`
